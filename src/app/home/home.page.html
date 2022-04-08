@@ -1,0 +1,44 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+   <ion-card  color="danger" mode="ios">
+     <ion-card-header mode="ios" translucent="true" >
+       <ion-card-subtitle  mode="ios">Guilherme</ion-card-subtitle>
+       <ion-card-title  mode="ios">Norberto</ion-card-title>
+     </ion-card-header>
+     <ion-card-content>
+      <label for="">Qualquer texto</label> 
+      <ion-item>
+        <ion-label>Pizza</ion-label>
+        <ion-select mode="ios" interface="popover" value="peperoni" placeholder="Select Pizza">
+          <ion-select-option value="peperoni">Peperoni</ion-select-option>
+          <ion-select-option value="hawaii">Hawaii</ion-select-option>
+        </ion-select>
+      </ion-item>
+     </ion-card-content>
+   </ion-card>
+
+   <ion-card mode="md">
+     <ion-card-header mode="md">
+       <ion-card-subtitle>Guilherme</ion-card-subtitle>
+       <ion-card-title>Norberto</ion-card-title>
+     </ion-card-header>
+     <ion-card-content>
+       <label for="">Qualquer texto</label> 
+       <ion-item>
+         <ion-label>Pizza</ion-label>
+         <ion-select mode="md" value="peperoni" multiple="true" placeholder="Select Pizza">
+           <ion-select-option value="peperoni">Peperoni</ion-select-option>
+           <ion-select-option value="hawaii">Hawaii</ion-select-option>
+         </ion-select>
+       </ion-item>
+
+     </ion-card-content>
+   </ion-card>
+</ion-content>

@@ -1,0 +1,7 @@
+{
+  "name": "Ion-Card ",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
